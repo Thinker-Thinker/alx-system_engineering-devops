@@ -1,2 +1,2 @@
 #!/bin/bash
-chown vincent:staff _hello
+chown --dereferene vincent:staff _hello
