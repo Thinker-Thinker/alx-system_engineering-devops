@@ -1,0 +1,12 @@
+#!/bin/bash
+
+chmod u+x $1
+git add .
+
+git commit -m $1
+
+git push
+
+clear
+
+./$1
